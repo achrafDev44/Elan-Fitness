@@ -545,7 +545,51 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+
 .logo {
   height: 88px;
   width: auto;
-} 
+}
+
+/* Adaptation le site sur les téléphones */
+@media screen and (max-width: 768px) {
+   .hero-contenu {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    height: 300px;
+  }
+
+  .apropos-contenu {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .apropos-image {
+    height: 300px;
+  }
+
+  .cartes {
+    flex-direction: column;
+  }
+
+  .chiffres {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .valeurs {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .en-tete-contenu {
+    flex-direction: column;
+    height: auto;
+    padding: 16px 0;
+  }
+  
+}
+
+
