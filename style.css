@@ -551,7 +551,7 @@ button:focus-visible {
   width: auto;
 }
 
-/* Adaptation le site sur les téléphones */
+/* Adaptation le site sur  tablettes et téléphones */
 @media screen and (max-width: 768px) {
    .hero-contenu {
     flex-direction: column;
@@ -590,6 +590,12 @@ button:focus-visible {
     padding: 16px 0;
   }
   
+}
+/*faire une hover sur les images*/
+img:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.2);
+    
 }
 
 
